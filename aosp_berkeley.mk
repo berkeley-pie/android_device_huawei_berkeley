@@ -26,3 +26,8 @@ PRODUCT_NAME := aosp_berkeley
 PRODUCT_DEVICE := berkeley
 PRODUCT_BRAND := Huawei
 PRODUCT_MODEL := Honor View 10
+
+PRODUCT_PACKAGES += \
+    Launcher3 \
+    Eleven \
+    Jelly
