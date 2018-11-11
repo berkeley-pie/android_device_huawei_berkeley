@@ -22,6 +22,9 @@ $(call inherit-product, device/huawei/berkeley/full_berkeley.mk)
 # Inherit some common AOSP stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
+# Disable dynamic partition size
+PRODUCT_USE_DYNAMIC_PARTITION_SIZE := false
+
 # Device identifier. This must come after all inclusions
 PRODUCT_NAME := aosp_berkeley
 PRODUCT_DEVICE := berkeley
