@@ -14,9 +14,11 @@
 # limitations under the License.
 #
 
+# Get the long list of APNs
 PRODUCT_COPY_FILES += \
     vendor/aosp/prebuilt/common/etc/apns-conf.xml:system/etc/apns-conf.xml
 
+# Inherit AOSP device configuration for berkeley
 $(call inherit-product, device/huawei/berkeley/full_berkeley.mk)
 
 # Inherit some common AOSP stuff.
@@ -30,3 +32,6 @@ PRODUCT_NAME := aosp_berkeley
 PRODUCT_DEVICE := berkeley
 PRODUCT_BRAND := Huawei
 PRODUCT_MODEL := Honor View 10
+PRODUCT_MANUFACTURER := Huawei
+
+PRODUCT_GMS_CLIENTID_BASE := android-huawei
