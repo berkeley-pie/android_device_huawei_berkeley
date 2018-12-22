@@ -2,5 +2,9 @@
   {
     "repository": "android_device_huawei_kirin970-common",
     "target_path": "device/huawei/kirin970-common"
+  },
+  {
+    "repository": "android_vendor_huawei_HwCamera2",
+    "target_path": "vendor/huawei/HwCamera2"
   }
 ]
